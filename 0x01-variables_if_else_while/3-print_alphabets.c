@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the letters of the alphabet 
+ * main - prints the letters of the alphabet
  *
  * Description: "A program that prints the alphabet in lowercase, and then
  * in uppercase."
