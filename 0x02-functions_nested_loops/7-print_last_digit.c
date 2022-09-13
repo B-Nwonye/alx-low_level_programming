@@ -3,6 +3,8 @@
 /**
  * print_last_digit - prints the last digits of a number
  *
+ * @n: n is an integer
+ *
  * Return: integer
  */
 
