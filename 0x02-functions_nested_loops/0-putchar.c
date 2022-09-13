@@ -1,13 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - prints putchar
+ * main - print _putchar
  *
  * Return: 0 if no error occurs
  */
 int main(void)
 {
-	char text[9] = "_putchar";
+	char text[10] = "_putchar";
 	int i = 0;
 
 	for (i = 0; i < 8; i++)
@@ -18,3 +18,4 @@ int main(void)
 
 	return (0);
 }
+
