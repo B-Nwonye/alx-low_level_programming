@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - adds two integers and returns the result
+ * print_to_98 - prints all the natural numbers from n to 98
+ *
+ * @n: n is an integer
  *
  * Return: void
  */
