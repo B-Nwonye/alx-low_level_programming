@@ -35,6 +35,7 @@ void times_table(void)
 				_putchar(tens + '0');
 				_putchar(ones + '0');
 			}
+		}
 		_putchar('\n');
 	}
 }
