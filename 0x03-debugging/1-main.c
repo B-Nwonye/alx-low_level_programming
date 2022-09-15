@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - creates an infinite loo  p
+ * main - creates an infinite loop
  * Return: 0
  */
 
@@ -18,6 +18,7 @@ int main(void)
 	 * putchar(i);
 	 * }
 	 */
+
 	printf("Infinite loop evaded! \\0/\n");
 
 	return (0);
