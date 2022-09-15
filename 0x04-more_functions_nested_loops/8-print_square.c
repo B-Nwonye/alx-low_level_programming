@@ -3,29 +3,23 @@
 /**
  * print_square - prints a square
  *
- * @size: length and width of square
- *
- * Return: void
+ * @size: the squares size
  */
 
 void print_square(int size)
 {
-	int row;
-	int column;
+	int hgt, wid;
 
 	if (size > 0)
 	{
-		for (row = 0 row < size; row++)
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for ( column = 0; column < size; column++)
-			{
+			for (wid = 0; wid < size; wid++)
 				_putchar('#');
-			}
+			if (hgt == size - 1)
+				continue;
 			_putchar('\n');
 		}
 	}
-	else
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
