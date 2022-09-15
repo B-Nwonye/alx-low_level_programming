@@ -3,35 +3,31 @@
 /**
  * print_triangle - prints a triangle
  *
- * @size: length of sides minus hypotenuse
- *
- * Return: void
+ * @size: size of the triangle
  */
 
 void print_triangle(int size)
 {
-	int line = 0;
-	int spaces;
-	int hashes;
+	int hash, index;
 
-	if (size > 10)
+	if (size > 0)
 	{
-		while (line < size)
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (spaces = size - 1; spaces > line; spaces--)
+			for (index = size - hash; index > 0; index--)
 			{
 				_putchar(' ');
 			}
-			for (hashes = 0; hashes < line + 1; hashes++)
+			for (index = 0; index < hash; index++)
 			{
 				_putchar('#');
 			}
+			if (hash == size)
+			{
+				continue;
+			}
 			_putchar('\n');
-			line++;
 		}
 	}
-	else
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
