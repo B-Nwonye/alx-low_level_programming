@@ -8,7 +8,6 @@
  *
  * Return: If str1 < str2, the negative difference of the First unmatched
  * characters
- * 
  * If str1 == str2, 0
  * If str1 > str2, the positive difference of the first unmatched characters
  */
