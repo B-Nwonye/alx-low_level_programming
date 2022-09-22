@@ -3,8 +3,8 @@
 /**
  * _strncat - concatenates two string
  *
- * dest: destination of char
- * src: source of char
+ * @dest: destination of char
+ * @src: source of char
  * @n: number of bytes from src
  *
  * Return: new string
@@ -29,6 +29,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	dest[i] = '\0';
-	
+
 	return (dest);
 }
