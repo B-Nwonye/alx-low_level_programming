@@ -6,7 +6,6 @@
  * @dest: destination of char
  * @src: source of char
  * @n: number of bytes from char
- *
  * Return: new string
  */
 
