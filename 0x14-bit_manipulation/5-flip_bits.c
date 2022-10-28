@@ -8,7 +8,7 @@
  * Return: number of bits to change (integer)
  */
 
-qunsigned int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int sum;
 	unsigned long int xor;
